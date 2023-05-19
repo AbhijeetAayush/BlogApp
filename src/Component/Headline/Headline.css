@@ -1,5 +1,4 @@
 .headline{
-    margin: 40px 0;
     display: flex;
     gap: 50px;
     align-items: center;
@@ -7,7 +6,7 @@
 .headline .thumbnail{
     border-radius: var(--card-border-radius-5) 0;
     border: 1rem solid var(--color-gray-900);
-    width: 500px;
+    width: 45%;
 }
 .headline .info{
     display: flex;
@@ -30,9 +29,13 @@
     font-size: 1.7rem;
     transition: var(--transition);
 }
+.headline .info .title a{
+    color: var(--color-white);
+}
 .headline .info .peek{
     color: var(--color-gray-200);
     line-height: 1.6;
+    text-align: justify;
 }
 .headline .author img{
     width: 50px;
@@ -54,4 +57,13 @@
 }
 .headline .author .name{
     font-weight: bold;
+}
+@media(max-width:740px){
+    .headline{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .headline .thumbnail{
+        width: 100%;
+    }
 }

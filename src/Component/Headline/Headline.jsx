@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Headline.css";
 
 const Headline = () => {
@@ -6,7 +7,7 @@ const Headline = () => {
         <img className="thumbnail" src="/Assets/Images/Pm.jpeg" alt="" />
         <div className="info">
             <div className="tag">POLITICS</div>
-            <h2 className="title">PM of INDIA</h2>
+            <h2 className="title"><Link to="/">PM of INDIA</Link></h2>
             <div className="peek">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed molestiae asperiores impedit hic, voluptatibus accusamus quas debitis eius totam dicta reprehenderit, consequatur inventore vitae. Architecto quisquam dicta veniam aperiam esse.</div>
             <div className="author">
                 <img src="/Assets/Images/Gaiety.jpeg" alt="" />

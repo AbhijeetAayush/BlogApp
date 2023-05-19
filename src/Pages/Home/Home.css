@@ -1,5 +1,11 @@
-.home .post-wrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+.home{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin: 40px 0;
+}
+@media(max-width:1000px){
+    .home{
+        margin: 20px 0;
+    }
 }

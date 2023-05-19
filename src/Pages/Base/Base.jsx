@@ -1,16 +1,18 @@
-import Headline from "../../Component/Headline/Headline";
-import Navbar from "../../Component/Navbar/Navbar";
-import Home from "../Home/Home";
 import "./Base.css";
+import CategoryButtons from "../../Component/CategoryButtons/CategoryButtons";
+import Footer from "../../Component/Footer/Footer";
+import Navbar from "../../Component/Navbar/Navbar";
+import { Outlet } from "react-router-dom";
 
 const Base = () => {
   return (
     <div className="base">
-        <Navbar/>
+        <Navbar />
         <div className="main">
-            <Headline/>
-            <Home/>
+          <Outlet/>
         </div>
+        <CategoryButtons />
+        <Footer />
     </div>
   )
 }

@@ -20,7 +20,7 @@
     font-weight: 600;
     font-size: 0.8rem;
 }
-.post .title{
+.post .title a{
     color: var(--color-white);
 }
 .post .peek{

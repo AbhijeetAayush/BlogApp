@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Post.css";
 
 const Post = () => {
@@ -5,7 +6,7 @@ const Post = () => {
         <article className="post">
             <img src="/Assets/Images/ADANI.jpeg" alt="" className="thumbnail" />
             <div className="tag">STOCKS</div>
-            <h3 className="title">Adani Group stocks hit lower circuits</h3>
+            <h3 className="title"><Link to="/">Adani Group stocks hit lower circuits</Link></h3>
             <div className="peek">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi iste officia distinctio esse nulla omnis tempora dolores delectus debitis praesentium totam itaque rem repellendus illum sit, ea soluta fugiat unde.</div>
             <div className="author">
                 <img src="/Assets/Images/Gaiety.jpeg" alt="" />

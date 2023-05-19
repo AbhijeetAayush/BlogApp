@@ -1,4 +1,9 @@
 .base .main{
-    width: 85%;
+    width: 75%;
     margin: auto;
+}
+@media(max-width:1190px){
+    .base .main{
+        width: 90%;
+    }
 }

@@ -1,0 +1,27 @@
+.category-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+    border-top: 2px solid var(--color-gray-900);
+    border-bottom: 2px solid var(--color-gray-900);
+}
+.category-buttons .links{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.category-buttons .links .tag{
+    width: 100%;
+    background:var(--color-primary-light) ;
+    color: var(--color-primary);
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border-radius: var(--card-border-radius-2);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.category-buttons .links .tag:hover{
+    color: var(--color-white);
+}

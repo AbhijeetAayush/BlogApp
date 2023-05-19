@@ -1,15 +1,12 @@
-import "./Home.css"
-import Post from "../../Component/Post/Post";
+import "./Home.css";
+import Headline from "../../Component/Headline/Headline";
+import Posts from "../../Component/Posts/Posts";
 
 const Home = () => {
     return (
         <div className="home">
-            <section className="post-wrapper">
-                <Post />
-                <Post />
-                <Post />
-                <Post />
-            </section>
+            <Headline/>
+            <Posts/>
         </div>
     )
 }
