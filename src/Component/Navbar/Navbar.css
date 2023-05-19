@@ -1,0 +1,39 @@
+.navbar{
+    background-color: var(--color-primary);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.509);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+.navbar .container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.navbar .logo{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-white);
+}
+.navbar .navigation{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.navbar .navigation a{
+    color: var(--color-white);
+}
+.navbar .navigation .avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid var(--color-bg);
+    background-image: url("/public/Assets/Images/Gaiety.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
